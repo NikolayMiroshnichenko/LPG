@@ -1,0 +1,44 @@
+.gradient-wrapper {
+    position: relative;
+    width: 100%;
+}
+.about-us-title {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #293F95;
+    margin-bottom: 80px;
+}
+.about-us-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-list__item {
+    margin-right: 30px;
+    width: 40%;
+}
+.about-us-list__text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2E2E2E;
+}
+.about-us-list__text span {
+    color: #10499E;
+}
+
+.about-us-form {
+    width: 44%;
+    height: 540px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/gradient-wrapper/zavod.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

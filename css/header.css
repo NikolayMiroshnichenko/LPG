@@ -1,0 +1,51 @@
+.header-wrapper {
+    width: 100%;
+    position: fixed;
+    top: 34px;
+    left: 0;
+    background-color: rgba(255, 255,255,0.5);
+    z-index: 999;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+}
+.logo {
+    display: block;
+    width: 80px;
+    height: 64px;
+    font-size: 0;
+    line-height: 0;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    display: block;
+    padding: 0 24px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #00468F;
+    font-family: 'Proxima Nova Lt';
+    /* font-size: 18px; */
+    /* padding: 0 34px; */
+}
+.header-call {
+    font-family: 'Proxima Nova Lt';
+    text-decoration: none;
+    padding: 16px 26px;
+    color: #ffffff;
+    font-size: 14px;
+    background: linear-gradient(270deg, #1D449A 0%, #3C388E 100%);
+    border-radius: 45px;
+}
+

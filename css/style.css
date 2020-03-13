@@ -1,0 +1,10 @@
+@import './header.css';
+@import './main.css';
+@import './fonts.css';
+@import './gradient-block.css';
+
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}

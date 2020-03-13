@@ -1,0 +1,167 @@
+.main {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.main-item {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 48%;
+    height: 83vh;
+    background: linear-gradient(220.94deg, #3C388E 0.42%, #044EA3 100%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.main-img {
+    width: 52%;
+    height: 83vh;
+    background-image: url(../img/main/main.png);
+    background-position: right;
+}
+.main-item__img {
+    position: absolute;
+    width: 80.74%;
+    height: 69%;
+    left: 5.69%;
+    top: 14.7%;
+    background-image: url(../img/main/frame.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main-des {
+    width: 66%;
+    margin-top: 20%;
+}
+.main-title {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    color: #ffffff;
+    margin: 0;
+    /* font-size: 48px; */
+}
+.main-text {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.main-list-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+}
+.main-list {
+    display: flex;
+    flex-direction: column;
+}
+.main-list__item {
+    position: relative;
+    width: 70%;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 20px 0 20px 50px;
+    z-index: 2;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+/* HOVER */
+.oil::after,
+.gaz::after,
+.electric::after {
+    position: absolute;
+    content: '';
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 18px;
+    background-image: url(../img/main/next.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+}
+.oil:hover::after,
+.gaz:hover::after,
+.electric:hover::after {
+    opacity: 1;
+}
+.oil::before,
+.gaz::before,
+.electric::before {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/main/2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.gaz::before {
+    background-image: url(../img/main/gas.png);
+}
+.oil::before {
+    background-image: url(../img/main/1.png);
+}
+.electric:hover {
+    width: 90%;
+    color: #2F2F2F;
+    background-color: #FFFFFF;
+}
+.electric:hover::before {
+    background-image: url(../img/main/hover/2.png);
+}
+.gaz:hover {
+    width: 90%;
+    color: #2F2F2F;
+    background-color: #FFFFFF;
+}
+.gaz:hover::before {
+    background-image: url(../img/main/hover/gas.png);
+}
+.oil:hover {
+    width: 90%;
+    color: #2F2F2F;
+    background-color: #FFFFFF;
+}
+.oil:hover::before {
+    background-image: url(../img/main/hover/1.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
