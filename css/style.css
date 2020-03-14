@@ -2,6 +2,8 @@
 @import './main.css';
 @import './fonts.css';
 @import './gradient-block.css';
+@import './activity.css';
+
 
 .container {
     width: 75%;

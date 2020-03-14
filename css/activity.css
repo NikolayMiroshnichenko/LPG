@@ -1,0 +1,133 @@
+.activity {
+    width: 70%;
+    margin: 0 auto;
+}
+.activity-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #293F95;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 80px;
+
+}
+.activity-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 140px;
+}
+.activity-list__content {
+    width: 35%;
+}
+.activity-content__title {
+    font-weight: bold;
+    font-size: 22px;
+    color: #293F95;
+    font-family: 'Rubik', sans-serif;
+}
+.activity-content__text {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    line-height: 1.4;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #2E2E2E;
+
+}
+.activity-content__text span {
+    color: #10499E;
+}
+.activity-content__btn {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding: 16px 0;
+    background: linear-gradient(270deg, #1D449A 0%, #3C388E 100%);
+    border-radius: 45px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Proxima Nova Lt';
+
+}
+.activity-list__maps {
+    position: relative;
+    width: 65%;
+}
+.activity-list__img {
+    display: block;
+    width: 100%;
+}
+.activity-chernigov {
+    position: absolute;
+    top: -11.5%;
+    right: 20.5%;
+    width: 26%;
+    height: 28%;
+    background-color: #F9F9F9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 17px 17px 17px 0px;
+    box-sizing: border-box;
+    padding: 4px;
+}
+.activity-chernigov__title {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 0;
+}
+.activity-chernigov__imfo,
+.activity-chernigov__text {
+    font-size: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    padding: 0 2px 22px 2px;
+}
+.activity-chernigov__text span {
+    color: #274096;
+} 
+.activity-chernigov__imfo {
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
