@@ -1,0 +1,24 @@
+.footer-wrapper {
+    width: 100%;
+    border-top: 8px solid #0050A4;
+    border-bottom: 8px solid #0050A4;
+}
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 520px;
+}
+.footer-desing-logo {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 514px;
+    height: 405px;
+    background-image: url(../img/footer/footer-desing.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}

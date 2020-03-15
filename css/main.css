@@ -11,12 +11,14 @@
     display: flex;
     justify-content: flex-end;
     width: 48%;
+    min-height: 600px;
     height: 83vh;
     background: linear-gradient(220.94deg, #3C388E 0.42%, #044EA3 100%);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 .main-img {
     width: 52%;
+    min-height: 600px;
     height: 83vh;
     background-image: url(../img/main/main.png);
     background-position: right;
