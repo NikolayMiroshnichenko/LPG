@@ -1,0 +1,70 @@
+@media (min-width: 1600px) { 
+    .nav-item {
+        font-size: 18px;
+        padding: 0 34px
+    }
+    .header-call {
+        font-size: 18px;
+    }
+    .main-title {
+        font-size: 48px;
+    }
+    .main-text {
+        font-size: 16px;
+    }
+    .main-list-title {
+        font-size: 18px;
+    }
+    .about-us-title {
+        font-size: 36px;
+    }
+    .about-us-list__text {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .about-us-form__title {
+        font-size: 20px;
+    }
+    .about-us-form__text {
+        font-size: 16px;
+    }
+    .form-input {
+        font-size: 16px;
+    }
+    .selected-btn {
+        font-size: 16px;
+    }
+    .form-btn {
+        font-size: 16px;
+    }
+    .profitably-list__title {
+        font-size: 28px;
+    }
+    .profitably-des-item {
+        font-size: 18px;
+    }
+    .profitably-box__item h3 {
+        font-size: 14px;
+    }
+    .activity-title {
+        font-size: 42px;
+    }
+    .activity-content__title {
+        font-size: 24px;
+    }
+    .activity-content__text {
+        line-height: 1.6;
+        font-size: 18px;
+    }
+    .activity-content__btn {
+        font-size: 20px;
+    }
+    .activity-chernigov__title {
+        font-size: 16px;
+    }
+    .activity-chernigov__imfo,
+    .activity-chernigov__text {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+ }
