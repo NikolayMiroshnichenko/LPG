@@ -3,17 +3,8 @@
         font-size: 18px;
         padding: 0 34px
     }
-    .header-call {
-        font-size: 18px;
-    }
     .main-title {
         font-size: 48px;
-    }
-    .main-text {
-        font-size: 16px;
-    }
-    .main-list-title {
-        font-size: 18px;
     }
     .about-us-title {
         font-size: 36px;
@@ -22,30 +13,22 @@
         font-size: 18px;
         line-height: 1.6;
     }
+    .profitably-list__title,
     .about-us-form__title {
         font-size: 20px;
     }
-    .about-us-form__text {
-        font-size: 16px;
-    }
+    .activity-chernigov__title,
+    .about-us-form__text,
+    .form-btn,
+    .selected-btn,
+    .main-text,
     .form-input {
         font-size: 16px;
-    }
-    .selected-btn {
-        font-size: 16px;
-    }
-    .form-btn {
-        font-size: 16px;
-    }
-    .profitably-list__title {
-        font-size: 28px;
-    }
-    .profitably-des-item {
-        font-size: 18px;
     }
     .profitably-box__item h3 {
         font-size: 14px;
     }
+    .company-title,
     .activity-title {
         font-size: 42px;
     }
@@ -56,15 +39,55 @@
         line-height: 1.6;
         font-size: 18px;
     }
-    .activity-content__btn {
-        font-size: 20px;
-    }
-    .activity-chernigov__title {
-        font-size: 16px;
-    }
     .activity-chernigov__imfo,
     .activity-chernigov__text {
         font-size: 14px;
         line-height: 1.4;
     }
+    .company-list-content h3 {
+        font-size: 32px;
+    }
+    .activity-content__btn,
+    .foter-contacts-number__info h3,
+    .company-list-content p {
+        font-size: 20px;
+    }
+    .foter-contacts-logo img {
+        width: 126px;
+        height: 100px;
+    }
+    .foter-contacts-logo h3 {
+        font-size: 28px;
+    }
+    .foter-contacts-data__user {
+        margin-right: 40px;
+    }
+    .foter-contacts-data__user h3 {
+        font-size: 20px;
+    }
+    .foter-contacts-number__info p,
+    .foter-contacts-data__user p {
+        font-size: 18px;
+        padding: 8px 0 0 0;
+    }
+    .in,
+    .telegram,
+    .viber {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-product__title,
+    .footer-coating__title,
+    .footer-menu__title {
+        font-size: 22px;
+    }
+    .profitably-des-item,
+    .header-call,
+    .main-list-title,
+    .footer-product__item,
+    .footer-coating__item,
+    .footer-nav__item {
+        font-size: 18px;
+    }
+    
  }
