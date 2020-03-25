@@ -46,4 +46,7 @@
     background: linear-gradient(270deg, #1D449A 0%, #3C388E 100%);
     border-radius: 45px;
 }
+.menu-icon {
+    display: none;
+}
 
