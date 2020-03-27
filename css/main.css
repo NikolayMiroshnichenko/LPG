@@ -22,6 +22,8 @@
     height: 83vh;
     background-image: url(../img/main/main.png);
     background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-item__img {
     position: absolute;

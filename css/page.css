@@ -1,0 +1,127 @@
+.main-lpg-img {
+    background-image: url(../img/lpg/main-img.png);
+}
+.main-page-btn {
+    display: block;
+    text-align: center;
+    width: 186px;
+    text-decoration: none;
+    color: #063A79;
+    padding: 14px 20px;
+    font-family: 'Proxima Nova Lt';
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4), linear-gradient(270deg, #1D449A 0%, #3C388E 100%);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25);
+    border-radius: 45px;
+}
+.page-descriptions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.page-descriptions__item {
+    width: 40%;
+}
+.page-descriptions__item h2 {
+    font-size: 48px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #383838;
+    font-family: 'Rubik', sans-serif;
+}
+.page-descriptions__item P {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,0.85);
+
+}
+.page-descriptions__img {
+    display: block;
+    width: 50%;
+}
+.page-form {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.page-form-container {
+    flex-direction: column;
+}
+.form-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.style-imput {
+    width: 30%;
+}
+.style-select {
+    width: 30%;
+}
+.documentation {
+    margin-bottom: 80px;
+}
+.documentation-title {
+    font-size: 32px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #293F95;
+    margin-bottom: 40px;
+}
+.documentation-content {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.documentation-content__title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #383838;
+}
+.documentation-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.documentation-list__item {
+    display: block;
+    width: 40%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 20px 0 20px 30px;
+    background: #F4F4F4;
+    box-shadow: 1px 5px 10px rgba(73, 73, 73, 0.15);
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+.pdf-icon,
+.word-icon {
+    position: relative;
+}
+.word-icon::before,
+.pdf-icon::before {
+    position: absolute;
+    content: "";
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.word-icon::before {
+    background-image: url(../img/lpg/word.png);
+}
+.pdf-icon::before {
+    background-image: url(../img/lpg/pdf.png);
+}
