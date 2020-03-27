@@ -105,6 +105,11 @@
     margin: 0;
     padding: 4px 0;
 }
+.footer-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
 .footer-product__title,
 .footer-coating__title,
 .footer-menu__title {
