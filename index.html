@@ -16,7 +16,10 @@
     <section class="header-wrapper">
         <header class="header container">
             <a href="index.html" class="logo">LPG</a>
-            <nav class="nav">
+            <nav class="nav js-nav">
+                <span class="close">
+                    <span class="close-icon"></span>
+                </span>
                 <a href="#" class="nav-item">Про нас</a>
                 <a href="#" class="nav-item">Продукція</a>
                 <a href="#" class="nav-item">Мапа діяльності</a>
@@ -24,7 +27,7 @@
                 <a href="#" class="nav-item">Контакти</a>
             </nav>
             <a href="#" class="header-call">Зворотній виклик</a>
-            <div class="menu-icon"></div>
+            <div class="menu-icon js-menu-icon"></div>
         </header>
     </section>
     <section class="main">
@@ -34,9 +37,9 @@
                 <p class="main-text">Оптова реалізація природного газу, нафтопродуктів та електроенергії </p>
                 <p class="main-list-title">Яка послуга вас цікавить?</p>
                 <div class="main-list">
-                    <a href="#" class="main-list__item electric">Надання електроенергії</a>
-                    <a href="#" class="main-list__item gaz">Транспортування газу</a>
-                    <a href="#" class="main-list__item oil">Транспортування нафтопродуктів</a>
+                    <a href="energy.html" class="main-list__item electric" target="_blank">Надання електроенергії</a>
+                    <a href="lpg.html" class="main-list__item gaz" target="_blank">Транспортування газу</a>
+                    <a href="neft.html" class="main-list__item oil" target="_blank">Транспортування нафтопродуктів</a>
                 </div>
             </div>
             <div class="main-item__img"></div>
@@ -299,9 +302,9 @@
                 <div class="footer-coating">
                     <h3 class="footer-product__title">Продукція</h3>
                     <div class="footer-product-list">
-                        <a href="#" class="footer-product__item">Навтопродукти</a>
-                        <a href="#" class="footer-product__item">LPG</a>
-                        <a href="#" class="footer-product__item">Електроенергія</a>
+                        <a href="neft.html" class="footer-product__item">Навтопродукти</a>
+                        <a href="lpg.html" class="footer-product__item">LPG</a>
+                        <a href="energy.html" class="footer-product__item">Електроенергія</a>
 
                     </div>
                 </div>
@@ -309,6 +312,7 @@
             <div class="footer-desing-logo"></div>
         </div>
     </footer>
+    <script src="scripts/menu.js"></script>
 </body>
 
 </html>
