@@ -30,12 +30,34 @@
     align-items: center;
 }
 .nav-item {
+    position: relative;
     display: block;
-    padding: 0 24px;
+    padding: 10px 24px;
     text-decoration: none;
     font-size: 14px;
     color: #00468F;
     font-family: 'Proxima Nova Lt';
+    transition: all 0.4s;
+}
+.nav-item:focus,
+.nav-item:hover {
+    color: #ff6038;
+}
+.nav-item::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #ff6038;
+    transition: all 0.4s;
+    opacity: 0.8;
+}
+.nav-item:focus::before,
+.nav-item:hover::before {
+    width: 60px;
 }
 .header-call {
     font-family: 'Proxima Nova Lt';
@@ -45,6 +67,10 @@
     font-size: 14px;
     background: linear-gradient(270deg, #1D449A 0%, #3C388E 100%);
     border-radius: 45px;
+    transition: all 0.4s;
+}
+.header-call:hover {
+    background: linear-gradient(270deg, #3C388E 0%, #1D449A 100%);
 }
 .menu-icon {
     display: none;
