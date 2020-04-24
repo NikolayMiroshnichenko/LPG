@@ -183,6 +183,17 @@
     .nav-item:last-child {
         border-bottom: 0;
     }
+    .nav-list {
+        position: static;
+    }
+    .nav-item__activ::after {
+        right: 50%;
+        top: 28px;
+        transform: translateY(0);
+    }
+    .nav-list__activ {
+        padding: 0 0 0 20px;
+    }
     .header-call {
         display: none;
     }
@@ -283,7 +294,7 @@
     .profitably-list {
         flex-direction: column;
         margin-bottom: 40px;
-        padding-bottom: 400px;
+        padding-bottom: 460px;
     }
     .profitably-list__item {
         width: 100%;
@@ -384,9 +395,6 @@
     }
     .products-list__item {
         width: 100%;
-    }
-    .mobil-display-none {
-        display: none;
     }
     .company-list {
         flex-direction: column;

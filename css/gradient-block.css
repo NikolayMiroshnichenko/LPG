@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 180px;
+    margin-bottom: 120px;
 }
 
 .about-us-list__item {
@@ -165,11 +165,11 @@
     margin-bottom: 140px;
 }
 .profitably-list__item {
-    width: 45%;
+    width: 50%;
 }
 .profitably-list__title {
     font-family: 'Rubik', sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     color: #293F95;
     margin-bottom: 30px;
@@ -182,7 +182,7 @@
     font-family: 'Rubik', sans-serif;
     font-weight: normal;
     line-height: 1.4;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 30px;
 }
 .profitably-des-item span {
@@ -199,10 +199,14 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.profitably-des-item__title {
+    color: #10499E;
+    margin: 0;
+}
 .profitably-box {
     position: relative;
-    width: 40%;
-    height: 380px;
+    width: 45%;
+    height: 440px;
 }
 .profitably-box__item {
     width: 28%;
