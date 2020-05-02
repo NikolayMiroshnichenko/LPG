@@ -20,7 +20,7 @@
                 <span class="close">
                     <span class="close-icon"></span>
                 </span>
-                <a href="index.html#about-us" class="nav-item">Про нас</a>
+                <a href="#about-us" class="nav-item anchors">Про нас</a>
                 <div class="nav-item nav-item__activ">
                     Продукція
                     <div class="nav-list">
@@ -29,11 +29,11 @@
                         <a href="neft.html" class="nav-list__item">Нафтопродуція</a>
                     </div>
                 </div>
-                <a href="index.html#activity" class="nav-item">Мапа діяльності</a>
-                <a href="#" class="nav-item">Калькулятор вартості</a>
-                <a href="index.html#contacts" class="nav-item">Контакти</a>
+                <a href="#activity" class="nav-item anchors">Мапа діяльності</a>
+                <a href="#" class="nav-item anchors">Калькулятор вартості</a>
+                <a href="#contacts" class="nav-item anchors">Контакти</a>
             </nav>
-            <a href="#" class="header-call">Зворотній виклик</a>
+            <a href="#form-block" class="header-call anchors">Зворотній виклик</a>
             <div class="menu-icon js-menu-icon"></div>
         </header>
     </section>
@@ -62,7 +62,7 @@
                     </p>
                     <p class="about-us-list__text">Наша діяльність охоплює більше 10 регіонів України в які доставка  здійснюється доставка нафтопродуктів. Ми працюємо лише з  провідними постачальниками енергетичних ресурсів в своїй галузі.  Такими як Речицький газопереробний завод на Мозирський  нафтопереробний завод</p>
                 </div>
-                <form class="about-us-form">
+                <form class="about-us-form" id="form-block">
                     <h3 class="about-us-form__title">Тут ви можете замовити послугу</h3>
                     <p class="about-us-form__text">і ми одразу запропонуємо вам найвигідніших варіант</p>
                     <div class="about-us-form-container">
@@ -81,27 +81,22 @@
                         <div class="form-div">
                             <div class="style-select">
                                 <select class="selected-btn">
-                                    <option selected>Потрібний тип продукції</option>
-                                    <option value="Чебурашка">ГАЗ</option>
-                                    <option value="Крокодил Гена">Бензин</option>
-                                    <option value="Шапокляк">Дизель</option>
+                                    <option selected>Тип продукції</option>
+                                    <option value="">ГАЗ</option>
+                                    <option value="">Бензин</option>
+                                    <option value="">Дизель</option>
+                                    <option value="">Електроенергія</option>
                                 </select>
                             </div>
                             <div class="style-select">
-                                <select class="selected-btn">
-                                    <option selected>Потрібний обєм</option>
-                                    <option value="Чебурашка">1</option>
-                                    <option value="Крокодил Гена">2</option>
-                                    <option value="Шапокляк">3</option>
-                                    <option value="Крыса Лариса">4</option>
-                                </select>
+                                <input type="text" class="style-select__input" name="" id="" placeholder="Потрібний об'єм">
                             </div>
                             <div class="style-select">
                                 <select class="selected-btn">
-                                    <option selected>Оберіть місто</option>
-                                    <option value="Чебурашка">Чернігів</option>
-                                    <option value="Крокодил Гена">Київ</option>
-                                    <option value="Шапокляк">Львів</option>
+                                        <option selected>Оберіть місто</option>
+                                        <option value="">Чернігів</option>
+                                        <option value="">Київ</option>
+                                        <option value="">Львів</option>
                                 </select>
                             </div>
                         </div>
@@ -117,20 +112,20 @@
                     <h2 class="profitably-list__title">Працювати з нами просто та вигідно</h2>
                     <ul class="profitably-des">
                         <li class="profitably-des-item">
-                            <h3 class="profitably-des-item__title">Филигранная логистика</h3>
-                            <p class="profitably-des-item__text">Мы транспортируем грузы собственным транспортом, что позволяет  нам предлагать клиентам кратчайшие сроки и наиболее выгодные  тарифы. Наша логистика для опасных грузов - это доставка вашего  груза в руки без лишних проблем, наши диспетчера безупречно знают  свою работу и всегда оформляют надлежащую документацию без  ошибок. А регулярное ТО автопарка у профессиональных СТО  позволяет исключить форс мажорные остановки из-за поломок авто.</p>
+                            <h3 class="profitably-des-item__title">Філігранна логістика</h3>
+                            <p class="profitably-des-item__text">Ми транспортуємо вантажі власним транспортом, що дозволяє нам пропонувати клієнтам найкоротші терміни і найбільш вигідні тарифи. Наша логістика для небезпечних вантажів - це доставка вашого вантажу в руки без зайвих проблем, наші диспетчера бездоганно знають свою роботу і завжди оформляють належну документацію без помилок. А регулярне ТО автопарку у професійних СТО дозволяє виключити форс мажорні зупинки через поломки авто.</p>
                         </li>
                         <li class="profitably-des-item">
-                            <h3 class="profitably-des-item__title">Для нас важно мнение клиента</h3>
-                            <p class="profitably-des-item__text">Начиная работу с нами, вы можете быть уверены, что мы тщательно  изучаем потребности каждого клиента, что позволяет предлагать для  каждого бизнеса свои индивидуальные условия для каждого бизнеса  по доставке сжиженного газа, нефтепродуктов и электроэнергии. Для  постоянных клиентов в нашей компании предусмотрена система  лояльности и скидок, а также отсрочки платежей.  </p>
+                            <h3 class="profitably-des-item__title">Для нас важлива думка клієнта</h3>
+                            <p class="profitably-des-item__text">Починаючи роботу з нами, ви можете бути впевнені, що ми ретельно вивчаємо потреби кожного клієнта, що дозволяє пропонувати для кожного бізнесу свої індивідуальні умови для кожного бізнесу з доставки зрідженого газу, нафтопродуктів та електроенергії. Для постійних клієнтів у нашій компанії передбачена система лояльності і знижок, а також відстрочки платежів.</p>
                         </li>
                         <li class="profitably-des-item">
-                            <h3 class="profitably-des-item__title">Безупречная работа более 10 лет</h3>
-                            <p class="profitably-des-item__text">Репутация заработанная годами позволяет нам предлагать каждому  клиенту бескомпромиссное качество работы:</p>
+                            <h3 class="profitably-des-item__title">Бездоганна робота більше 10 років</h3>
+                            <p class="profitably-des-item__text">Репутація зароблена роками дозволяє нам пропонувати кожному клієнту безкомпромісну якість роботи:</p>
                             <ul>
-                                <li>полное соответствие нефтепродуктов заявленному качеству, а  также продуктовым особенностям согласно международных  норм </li>
-                                <li>жесткое соблюдение сроков поставки </li>
-                                <li>понятное ценообразование </li>
+                                <li>Повну відповідність нафтопродуктів заявленій якості, а також продуктовим особливостям згідно міжнародних норм</li>
+                                <li>Жорстке дотримання термінів поставки</li>
+                                <li>Зрозуміле ціноутворення</li>
                             </ul>
                         </li>
                     </ul>
@@ -165,16 +160,14 @@
         <div class="activity-list">
             <div class="activity-list__content">
                 <h3 class="activity-content__title">Ми з кожним днем охоплюємо нові регіони</h3>
-                <p class="activity-content__text">На карте отображены регионы, в которые регулярно мы регулярно  доставляем грузы и обеспечиваем максимально оперативную работу  нашим клиентам в регионах. Также мы готовы охватывать новые  регионы.</p>
-                <p class="activity-content__text">Всегда качественное топливо не теряет своих свойств благодаря  несменной грамотности в географической политике  </p>
-                <a href="#" class="activity-content__btn">Замавити зараз</a>
+                <p class="activity-content__text">На карті відображені регіони, в які регулярно ми регулярно доставляємо вантажі і забезпечуємо максимально оперативну роботу нашим клієнтам в регіонах. Також ми готові охоплювати нові регіони.</p>
+                <p class="activity-content__text">Завжди якісне паливо не втрачає своїх властивостей завдяки незмінною грамотності в географічній політиці</p>
+                <a href="#form-block" class="activity-content__btn anchors">Замавити зараз</a>
             </div>
             <div class="activity-list__maps">
                 <img src="img/activity/maps.png" class="activity-list__img" alt="">
                 <div class="activity-chernigov">
-                    <h3 class="activity-chernigov__title">Чернігівська область</h3>
-                    <p class="activity-chernigov__text">Термін доставки <span>Газу</span>, або
-                        <span>нафтопродуктів</span> сягає до 5 діб.</p>
+                    <p class="activity-chernigov__title">Щоб дізнатися <br> терміни доставки в ваш регіон <br> уточніть інформацію у <br> регіонального менеджера.</p>
                     <p class="activity-chernigov__imfo">Дізнатися докладніше:</p>
                     <p class="activity-chernigov__imfo">+380 67 222 21 21</p>
                     <p class="activity-chernigov__imfo">Регіональний менеджер</p>
@@ -280,23 +273,23 @@
                 <div class="footer-menu">
                     <h3 class="footer-menu__title">Меню</h3>
                     <div class="footer-nav">
-                        <a href="#" class="footer-nav__item">Головна</a>
-                        <a href="#" class="footer-nav__item">Про нас</a>
-                        <a href="#" class="footer-nav__item">Покритя</a>
+                        <a href="index.html" class="footer-nav__item">Головна</a>
+                        <a href="#about-us" class="footer-nav__item anchors">Про нас</a>
+                        <a href="#activity" class="footer-nav__item anchors">Покритя</a>
                         <a href="#" class="footer-nav__item">Доставка палива</a>
-                        <a href="#" class="footer-nav__item">Замовлення послуг</a>
+                        <a href="#form-block" class="footer-nav__item anchors">Замовлення послуг</a>
                         <a href="#" class="footer-nav__item">Партнери</a>
                     </div>
                 </div>
                 <div class="footer-coating">
                     <h3 class="footer-coating__title">Покриття</h3>
                     <div class="footer-coating-list">
-                        <a href="#" class="footer-coating__item">Чернігів</a>
-                        <a href="#" class="footer-coating__item">Київ</a>
-                        <a href="#" class="footer-coating__item">Житомир</a>
-                        <a href="#" class="footer-coating__item">Черкасси</a>
-                        <a href="#" class="footer-coating__item">Сумми</a>
-                        <a href="#" class="footer-coating__item">Дніпро</a>
+                        <a href="#activity" class="footer-coating__item anchors">Чернігів</a>
+                        <a href="#activity" class="footer-coating__item anchors">Київ</a>
+                        <a href="#activity" class="footer-coating__item anchors">Житомир</a>
+                        <a href="#activity" class="footer-coating__item anchors">Черкасси</a>
+                        <a href="#activity" class="footer-coating__item anchors">Сумми</a>
+                        <a href="#activity" class="footer-coating__item anchors">Дніпро</a>
                     </div>
                 </div>
                 <div class="footer-coating">
@@ -312,8 +305,11 @@
             <div class="footer-desing-logo"></div>
         </div>
     </footer>
+    <script src="scripts/index.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/product.js"></script>
+    <script src="scripts/anchors.js"></script>
+    <script src="scripts/maps.js"></script>
 </body>
 
 </html>

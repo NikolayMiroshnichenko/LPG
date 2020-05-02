@@ -121,6 +121,7 @@
 }
 .selected-btn {
     position: relative;
+    width: 80%;
     height: 55px;
     color: #ffffff;
     font-size: 10px;
@@ -139,9 +140,40 @@
     background-repeat: no-repeat;
     background-position: 100% 50%;
 }
+.selected-btn:focus option {
+    background-color: #fff;
+    height: 20px;
+}
 .selected-btn option {
     color: #2E2E2E;
+    outline: none;
 }
+.style-select__input {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+    font-size: 10px;
+    height: 55px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Proxima Nova Lt';
+
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: #ffffff;
+    font-family: 'Proxima Nova Lt';
+} 
+input[type="text"]::-moz-placeholder {
+    color: #ffffff;
+    font-family: 'Proxima Nova Lt';
+}
+input[type="text"]:focus::-moz-placeholder {
+    opacity: 0.2;
+}
+input[type="text"]:focus::-webkit-input-placeholder {
+    opacity: 0.2;
+}
+
 .form-btn {
     display: block;
     width: 40%;

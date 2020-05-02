@@ -34,7 +34,7 @@
     .about-us-form__title {
         font-size: 20px;
     }
-    .activity-chernigov__title,
+    .style-select__input,
     .about-us-form__text,
     .form-btn,
     .selected-btn,
@@ -52,6 +52,9 @@
     .activity-content__title {
         font-size: 24px;
     }
+    .activity-chernigov__title {
+        font-size: 14px;
+    }
     .activity-content__text {
         line-height: 1.6;
         font-size: 18px;
@@ -60,6 +63,9 @@
     .activity-chernigov__text {
         font-size: 12px;
         line-height: 1.4;
+    }
+    .products {
+        width: 66%;
     }
     .company-list-content h3 {
         font-size: 32px;
@@ -185,6 +191,8 @@
     }
     .nav-list {
         position: static;
+        transform: translateX(0);
+        box-shadow: none;
     }
     .nav-item__activ::after {
         right: 50%;
@@ -373,9 +381,13 @@
         width: 100%;
         height: auto;
         overflow-x: scroll;
+        overflow-y: hidden;
     }
     .activity-chernigov {
-        display: none;
+        /* display: none; */
+        left: 10%;
+        top: 60%;
+        width: 50%;
     }
     .activity-list__img {
         width: 720px;

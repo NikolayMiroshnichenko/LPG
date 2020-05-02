@@ -15,33 +15,35 @@
 
 <body class="container-max">
 	<section class="header-wrapper">
-		<header class="header container">
-			<a href="index.html" class="logo">LPG</a>
-			<nav class="nav js-nav">
+        <header class="header container">
+            <a href="index.html" class="logo">LPG</a>
+            <nav class="nav js-nav">
                 <span class="close">
                     <span class="close-icon"></span>
                 </span>
                 <a href="index.html#about-us" class="nav-item">Про нас</a>
-                <a href="index.html#products" class="nav-item">Продукція</a>
-                <a href="index.html#activity" class="nav-item">Мапа діяльності</a>
-                <a href="#" class="nav-item">Калькулятор вартості</a>
-                <a href="index.html#contacts" class="nav-item">Контакти</a>
+                <div class="nav-item nav-item__activ">
+                    Продукція
+                    <div class="nav-list">
+                        <a href="lpg.html" class="nav-list__item">LPG</a>
+                        <a href="energy.html" class="nav-list__item">Електроенергія</a>
+                        <a href="neft.html" class="nav-list__item">Нафтопродуція</a>
+                    </div>
+                </div>
+                <a href="#activity" class="nav-item anchors">Мапа діяльності</a>
+                <a href="#" class="nav-item anchors">Калькулятор вартості</a>
+                <a href="#contacts" class="nav-item anchors">Контакти</a>
             </nav>
-			<a href="#" class="header-call">Зворотній виклик</a>
-			<div class="menu-icon js-menu-icon"></div>
-		</header>
-	</section>
+            <a href="#form-block" class="header-call anchors">Зворотній виклик</a>
+            <div class="menu-icon js-menu-icon"></div>
+        </header>
+    </section>
 	<section class="main">
 		<div class="main-item">
 			<div class="main-des">
 				<h1 class="main-title">Зрідженний газ LPG</h1>
 				<p class="main-text">
-					LPG Trade реалізує скраплений газ для автопарків на ГБО, мереж АЗС та промислових виробництв.
-					Імпортуємо продукцію з Білоруського газопереробного заводу.
-					Продукція Мозирського НПЗ характеризується: - низким вмістом сернистих зьєднань в автомобільних
-					бензинах АИ-95- Евро и АИ-92-Евро (не більше10 мг/кг), в дизельних топливах (не більше 10 мг/кг),
-					вкеросині (не більше 10 мг/кг); - відсутністю октанопідвищуючих та інших присадок в автомобільних
-					бензинах.
+					Ми LPG Trade поставляємо газ для транспортних підприємств на ГБО, автобусних парків, мереж АЗС і промислових потужностей. Ресурс нашого газу відповідає найвищим європейським стандартам, а значить і державним стандартам України, а саме: ЕN589 діє до: 2017, 4047-2001. Тому ми можемо гарантувати якість газу для продуктивної роботи вашого бізнесу. Висока якість і технологічність виробництв, з якими ми співпрацюємо, а також ідеальне технічний стан наших газовозів і система контролю якості, дають гарантію, що сировина доебется без зміни своїх якостей.
 				</p>
 				<p class="main-list-title">Хочете дізнатися умови або вартість?</p>
 				<a href="#" class="main-page-btn">Отримати пропозицію</a>
@@ -52,16 +54,12 @@
 	<section class="page-descriptions container">
 		<div class="page-descriptions__item">
 			<h2>Зрідженний газ LPG</h2>
-			<p>LPG Trade реалізує скраплений газ для автопарків на ГБО, мереж АЗС та промислових виробництв. Імпортуємо
-				продукцію з Білоруського газопереробного заводу.<br>
-				Продукція Мозирського НПЗ характеризується: - низким вмістом сернистих зьєднань в автомобільних бензинах
-				АИ-95- Евро и АИ-92-Евро (не більше10 мг/кг), в дизельних топливах (не більше 10 мг/кг), вкеросині (не
-				більше 10 мг/кг); - відсутністю октанопідвищуючих та інших присадок в автомобільних бензинах. </p>
+			<p>Ми LPG Trade поставляємо газ для транспортних підприємств на ГБО, автобусних парків, мереж АЗС і промислових потужностей. Ресурс нашого газу відповідає найвищим європейським стандартам, а значить і державним стандартам України, а саме: ЕN589 діє до: 2017, 4047-2001. Тому ми можемо гарантувати якість газу для продуктивної роботи вашого бізнесу. Висока якість і технологічність виробництв, з якими ми співпрацюємо, а також ідеальне технічний стан наших газовозів і система контролю якості, дають гарантію, що сировина доебется без зміни своїх якостей.</p>
 		</div>
 		<img src="img/lpg/content-img.png" class="page-descriptions__img" alt="">
 	</section>
 	<section class="container">
-		<form class="about-us-form page-form">
+		<form class="about-us-form page-form" id="form-block">
 			<h3 class="about-us-form__title">Тут ви можете замовити послугу</h3>
 			<p class="about-us-form__text">і ми одразу запропонуємо вам найвигідніших варіант</p>
 			<div class="about-us-form-container page-form-container">
@@ -80,32 +78,26 @@
 				<div class="form-div">
 					<div class="style-select">
 						<select class="selected-btn">
-							<option selected>Потрібний тип продукції</option>
-							<option value="Чебурашка">ГАЗ</option>
-							<option value="Крокодил Гена">Бензин</option>
-							<option value="Шапокляк">Дизель</option>
+							<option selected>Тип продукції</option>
+							<option value="">ГАЗ</option>
+							<option value="">Бензин</option>
+							<option value="">Дизель</option>
+							<option value="">Електроенергія</option>
 						</select>
 					</div>
 					<div class="style-select">
-						<select class="selected-btn">
-							<option selected>Потрібний обєм</option>
-							<option value="Чебурашка">1</option>
-							<option value="Крокодил Гена">2</option>
-							<option value="Шапокляк">3</option>
-							<option value="Крыса Лариса">4</option>
-						</select>
+						<input type="text" class="style-select__input" name="" id="" placeholder="Потрібний об'єм">
 					</div>
 					<div class="style-select">
 						<select class="selected-btn">
-							<option selected>Оберіть місто</option>
-							<option value="Чебурашка">Чернігів</option>
-							<option value="Крокодил Гена">Київ</option>
-							<option value="Шапокляк">Львів</option>
+								<option selected>Оберіть місто</option>
+								<option value="">Чернігів</option>
+								<option value="">Київ</option>
+								<option value="">Львів</option>
 						</select>
 					</div>
 				</div>
 			</div>
-
 			<button type="submit" class="form-btn">Замовити зараз</button>
 		</form>
 	</section>
@@ -114,13 +106,11 @@
 		<div class="documentation-content">
 			<h3 class="documentation-content__title">Пропозиції для скачування:</h3>
 			<div class="documentation-list">
-				<a href="#" class="documentation-list__item word-icon">Публичний договір</a>
-				<a href="#" class="documentation-list__item pdf-icon">Коммерційна пропозиція</a>
-				<a href="#" class="documentation-list__item word-icon">Договір поставки</a>
-				<a href="#" class="documentation-list__item pdf-icon">Прайс-лист на 26.02.2020</a>
+				<a download href="documents/lpg/Martin-Trejd_.pdf" target="_blank" class="documentation-list__item pdf-icon">Коммерційна пропозиція</a>
+				<a download href="documents/lpg/Dogovir-postachannya-Martin-Trejd.pdf" target="_blank" class="documentation-list__item pdf-icon">Договір поставки</a>
 			</div>
 		</div>
-		<div class="documentation-content">
+		<!-- <div class="documentation-content">
 			<h3 class="documentation-content__title">Список посилань:</h3>
 			<div class="documentation-list">
 				<a href="#" class="documentation-list__link">Надання електроенергії</a>
@@ -130,133 +120,141 @@
 				<a href="#" class="documentation-list__link">Надання електроенергії</a>
 				<a href="#" class="documentation-list__link">Надання електроенергії</a>
 			</div>
-		</div>
+		</div> -->
 	</section>
-	<section class="activity">
-		<h2 class="activity-title">Покриття транспортування LPG</h2>
-		<div class="activity-list">
-			<div class="activity-list__content">
-				<h3 class="activity-content__title">Ми з кожним днем охоплюємо нові регіони</h3>
-				<p class="activity-content__text">Компанія LPG TRADE – професіонал у сфері оптової реалізаціі
-					нафтопродуктів та скрапленного газу. Ми є надійним постачальником з 2010 року. Конкурентні ціни,
-					бездоганна логістика, висока якість продукту зробили нас лідером регіону.</p>
-				<p class="activity-content__text">Компанія LPG TRADE – професіонал у сфері оптової реалізаціі
-					нафтопродуктів та скрапленного газу. Ми є надійним постачальником з 2010 року. Конкурентні ціни,
-					бездоганна логістика, висока якість продукту зробили нас лідером регіону.</p>
-				<a href="#" class="activity-content__btn">Замавити зараз</a>
-			</div>
-			<div class="activity-list__maps">
-				<img src="img/activity/maps.png" class="activity-list__img" alt="">
-				<div class="activity-chernigov">
-					<h3 class="activity-chernigov__title">Чернігівська область</h3>
-					<p class="activity-chernigov__text">Термін доставки
-						<span>Газу</span>, або
-						<span>нафтопродуктів</span>
-						сягає до 5 діб.</p>
-					<p class="activity-chernigov__imfo">Дізнатися докладніше:</p>
-					<p class="activity-chernigov__imfo">+380 67 222 21 21</p>
-					<p class="activity-chernigov__imfo">Регіональний менеджер</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="products">
-		<h2 class="products-title">Продукція:</h2>
-		<ul class="products-list">
-			<li class="products-list__item">
-				<div class="products-list__img">
-					<img src="img/product/lpg.png" alt="">
-					<h3>LPG</h3>
-				</div>
-			</li>
-			<li class="products-list__item">
-				<div class="products-list__content content-petroleum-products">
-					<img src="img/product/petroleum-products-icon.png" alt="">
-					<h3>Нафтопродукти</h3>
-					<p>Компанія
-						<span>LPG TRADE</span>
-						– професіонал у сфері оптової реалізаціі нафтопродуктів та
-						скрапленного газу. Ми є надійним.
-					</p>
-				</div>
-			</li>
-			<li class="products-list__item">
-				<div class="products-list__img mobil-display-none">
-					<img src="img/product/electricity.png" alt="">
-					<h3>Електроенернія</h3>
-				</div>
-			</li>
+	<section class="activity" id="activity">
+        <h2 class="activity-title">Покриття транспортування LPG</h2>
+        <div class="activity-list">
+            <div class="activity-list__content">
+                <h3 class="activity-content__title">Ми з кожним днем охоплюємо нові регіони</h3>
+                <p class="activity-content__text">На карті відображені регіони, в які регулярно ми регулярно доставляємо вантажі і забезпечуємо максимально оперативну роботу нашим клієнтам в регіонах. Також ми готові охоплювати нові регіони.</p>
+                <p class="activity-content__text">Завжди якісне паливо не втрачає своїх властивостей завдяки незмінною грамотності в географічній політиці</p>
+                <a href="#form-block" class="activity-content__btn anchors">Замавити зараз</a>
+            </div>
+            <div class="activity-list__maps">
+                <img src="img/activity/maps.png" class="activity-list__img" alt="">
+                <div class="activity-chernigov">
+                    <p class="activity-chernigov__title">Щоб дізнатися <br> терміни доставки в ваш регіон <br> уточніть інформацію у <br> регіонального менеджера.</p>
+                    <p class="activity-chernigov__imfo">Дізнатися докладніше:</p>
+                    <p class="activity-chernigov__imfo">+380 67 222 21 21</p>
+                    <p class="activity-chernigov__imfo">Регіональний менеджер</p>
+                </div>
+            </div>
+        </div>
+    </section>
+	<section class="products" id="products">
+        <h2 class="products-title">Продукція:</h2>
+        <ul class="products-list">
+            <li class="products-list__item">
+                <div class="products-list__img">
+                    <img src="img/product/lpg.png" alt="">
+                    <h3>LPG</h3>
+                </div>
+                <a href="lpg.html" class="products-list__content content-lpg">
+                    <img src="img/product/lpg-icon.png" alt="">
+                    <h3>LPG</h3>
+                    <p>Компанія <span>LPG TRADE</span> – професіонал у сфері оптової реалізаціі нафтопродуктів та
+                        скрапленного газу. Ми є надійним. </p>
+                </a>
+            </li>
+            <li class="products-list__item">
+                <div class="products-list__img">
+                    <img src="img/product/petroleum-products.png" alt="">
+                    <h3>Нафтопродукти</h3>
+                </div>
+                <a href="neft.html" class="products-list__content content-petroleum-products">
+                    <img src="img/product/petroleum-products-icon.png" alt="">
+                    <h3>Нафтопродукти</h3>
+                    <p>Компанія <span>LPG TRADE</span> – професіонал у сфері оптової реалізаціі нафтопродуктів та
+                        скрапленного газу. Ми є надійним. </p>
+                </a>
+            </li>
+            <li class="products-list__item">
+                <div class="products-list__img">
+                    <img src="img/product/electricity.png" alt="">
+                    <h3>Електроенернія</h3>
+                </div>
+                <a href="energy.html" class="products-list__content content-electricity">
+                    <img src="img/product/electricity-icon.png" alt="">
+                    <h3>Електроенернія</h3>
+                    <p>Компанія <span>LPG TRADE</span> – професіонал у сфері оптової реалізаціі нафтопродуктів та
+                        скрапленного газу. Ми є надійним. </p>
+                </a>
+            </li>
+        </ul>
+    </section>
+	<footer class="footer-wrapper" id="contacts">
+        <div class="footer container">
+            <div class="footer-contact">
+                <div class="foter-contacts-logo">
+                    <img src="img/footer/footer-logo.png" alt="">
+                    <h3>Єнергія вашого руху</h3>
+                </div>
+                <div class="foter-contacts-data">
+                    <div class="foter-contacts-data__user">
+                        <h3>Комерційний Директор:</h3>
+                        <p>Ніколаєв С.В.</p>
+                        <p>+380 (67) 460-26-06</p>
+                        <div class="foter-contacts-social">
+                            <a href="#" class="in">in</a>
+                            <a href="#" class="telegram">telegram</a>
+                            <a href="#" class="viber">instagram</a>
+                        </div>
+                    </div>
+                    <div class="foter-contacts-number">
+                        <div class="foter-contacts-number__info">
+                            <h3>Бухгалтерія:</h3>
+                            <p>+380 (462) 67-68-17</p>
+                            <p>+380 (462) 67-68-04</p>
+                        </div>
+                        <div class="foter-contacts-number__info">
+                            <h3>Електронна пошта:</h3>
+                            <p>info.lpg@ukr.net</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-navigation">
+                <div class="footer-menu">
+                    <h3 class="footer-menu__title">Меню</h3>
+                    <div class="footer-nav">
+                        <a href="index.html" class="footer-nav__item">Головна</a>
+                        <a href="index.html#about-us" class="footer-nav__item anchors">Про нас</a>
+                        <a href="#activity" class="footer-nav__item anchors">Покритя</a>
+                        <a href="#" class="footer-nav__item">Доставка палива</a>
+                        <a href="#form-block" class="footer-nav__item anchors">Замовлення послуг</a>
+                        <a href="#" class="footer-nav__item">Партнери</a>
+                    </div>
+                </div>
+                <div class="footer-coating">
+                    <h3 class="footer-coating__title">Покриття</h3>
+                    <div class="footer-coating-list">
+                        <a href="#activity" class="footer-coating__item anchors">Чернігів</a>
+                        <a href="#activity" class="footer-coating__item anchors">Київ</a>
+                        <a href="#activity" class="footer-coating__item anchors">Житомир</a>
+                        <a href="#activity" class="footer-coating__item anchors">Черкасси</a>
+                        <a href="#activity" class="footer-coating__item anchors">Сумми</a>
+                        <a href="#activity" class="footer-coating__item anchors">Дніпро</a>
+                    </div>
+                </div>
+                <div class="footer-coating">
+                    <h3 class="footer-product__title">Продукція</h3>
+                    <div class="footer-product-list">
+                        <a href="neft.html" class="footer-product__item">Навтопродукти</a>
+                        <a href="lpg.html" class="footer-product__item">LPG</a>
+                        <a href="energy.html" class="footer-product__item">Електроенергія</a>
 
-		</ul>
-	</section>
-	<footer class="footer-wrapper">
-		<div class="footer container">
-			<div class="footer-contact">
-				<div class="foter-contacts-logo">
-					<img src="img/footer/footer-logo.png" alt="">
-					<h3>Єнергія вашого руху</h3>
-				</div>
-				<div class="foter-contacts-data">
-					<div class="foter-contacts-data__user">
-						<h3>Комерційний Директор:</h3>
-						<p>Ніколаєв С.В.</p>
-						<p>+380 (67) 460-26-06</p>
-						<div class="foter-contacts-social">
-							<a href="#" class="in">in</a>
-							<a href="#" class="telegram">telegram</a>
-							<a href="#" class="viber">instagram</a>
-						</div>
-					</div>
-					<div class="foter-contacts-number">
-						<div class="foter-contacts-number__info">
-							<h3>Бухгалтерія:</h3>
-							<p>+380 (462) 67-68-17</p>
-							<p>+380 (462) 67-68-04</p>
-						</div>
-						<div class="foter-contacts-number__info">
-							<h3>Електронна пошта:</h3>
-							<p>info.lpg@ukr.net</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer-navigation">
-				<div class="footer-menu">
-					<h3 class="footer-menu__title">Меню</h3>
-					<div class="footer-nav">
-						<a href="#" class="footer-nav__item">Головна</a>
-						<a href="#" class="footer-nav__item">Про нас</a>
-						<a href="#" class="footer-nav__item">Покритя</a>
-						<a href="#" class="footer-nav__item">Доставка палива</a>
-						<a href="#" class="footer-nav__item">Замовлення послуг</a>
-						<a href="#" class="footer-nav__item">Партнери</a>
-					</div>
-				</div>
-				<div class="footer-coating">
-					<h3 class="footer-coating__title">Покриття</h3>
-					<div class="footer-coating-list">
-						<a href="#" class="footer-coating__item">Чернігів</a>
-						<a href="#" class="footer-coating__item">Київ</a>
-						<a href="#" class="footer-coating__item">Житомир</a>
-						<a href="#" class="footer-coating__item">Черкасси</a>
-						<a href="#" class="footer-coating__item">Сумми</a>
-						<a href="#" class="footer-coating__item">Дніпро</a>
-					</div>
-				</div>
-				<div class="footer-coating">
-					<h3 class="footer-product__title">Продукція</h3>
-					<div class="footer-product-list">
-						<a href="#" class="footer-product__item">Навтопродукти</a>
-						<a href="#" class="footer-product__item">LPG</a>
-						<a href="#" class="footer-product__item">Електроенергія</a>
-
-					</div>
-				</div>
-			</div>
-			<div class="footer-desing-logo"></div>
-		</div>
-	</footer>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-desing-logo"></div>
+        </div>
+    </footer>
+	<script src="scripts/index.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/product.js"></script>
+    <script src="scripts/anchors.js"></script>
+    <script src="scripts/maps.js"></script>
 
 </body>
 

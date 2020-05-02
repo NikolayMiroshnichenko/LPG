@@ -1,5 +1,5 @@
 .products {
-    width: 66%;
+    width: 76%;
     margin: 0 auto;
     margin-bottom: 180px;
 }
@@ -64,6 +64,7 @@
     opacity: 0;
     transition: all 0.3s;
 }
+.products-list__item:focus .products-list__content,
 .products-list__item:hover .products-list__content {
     opacity: 1;
 } 
